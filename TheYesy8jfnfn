@@ -2559,9 +2559,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/
 		    writefile(".nonecing", "white")
 loadstring(game:HttpGet(('https://glot.io/snippets/gua2ntmbdm/raw/main.lua'),true))()
 	end)
-	
+
 		MoreTab:NewButton("2006 animation", "Made By me :/", function()
-		    player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://28440069"
+          player.Character.Animate.Idle.WalkAnim.AnimationId = "rbxassetid://28440069"
+		  player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://28440069"
 		player.Character.Animate.jump.JumpAnim.AnimationId = "rbxassetid://28440069"
 		player.Character.Animate.fall.FallAnim.AnimationId = "rbxassetid://28440069"
 	end)
