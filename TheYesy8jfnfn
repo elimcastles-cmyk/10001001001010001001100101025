@@ -2561,8 +2561,7 @@ loadstring(game:HttpGet(('https://glot.io/snippets/gua2ntmbdm/raw/main.lua'),tru
 	end)
 
 		MoreTab:NewButton("2006 animation", "Made By me :/", function()
-          player.Character.Animate.Idle.WalkAnim.AnimationId = "rbxassetid://28440069"
-		  player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://28440069"
+		    player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://28440069"
 		player.Character.Animate.jump.JumpAnim.AnimationId = "rbxassetid://28440069"
 		player.Character.Animate.fall.FallAnim.AnimationId = "rbxassetid://28440069"
 	end)
