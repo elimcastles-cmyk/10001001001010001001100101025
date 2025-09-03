@@ -2561,12 +2561,12 @@ loadstring(game:HttpGet(('https://glot.io/snippets/gua2ntmbdm/raw/main.lua'),tru
 	end)
 
 		MoreTab:NewButton("2006 animation", "Made By me :/", function()
-		    player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://28440069"
-		player.Character.Animate.jump.JumpAnim.AnimationId = "rbxassetid://28440069"
-		player.Character.Animate.fall.FallAnim.AnimationId = "rbxassetid://28440069"
-        player.Character.Animate.idle.IdleAnim.AnimationId = "rbxassetid://28440069"
+		    player.Character.Animate.walk.WalkAnim.AnimationId = "rbxassetid://80979216"
+		player.Character.Animate.jump.JumpAnim.AnimationId = "rbxassetid://187951261"
+		player.Character.Animate.fall.FallAnim.AnimationId = "rbxassetid://187951261"
+        player.Character.Animate.idle.Animation1.AnimationId = "rbxassetid://0"
 	end)
-	
+
 		MoreTab:NewButton("Sneaky", "Made by Foiled", function()
             loadstring(game:HttpGet("https://gist.githubusercontent.com/Onlyscripts1/1c1d91fb2cf992a82d449cabd851b0a4/raw/2a160da48c6ee04b297d165df12e73c406daad59/sneaky"))()
 	end)
